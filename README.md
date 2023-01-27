@@ -8,6 +8,8 @@ Creating this project was a challenging task, as it required a deep understandin
 
 I hope that this project proves to be useful for anyone who struggles with remembering to connect cables to their monitor. Thank you for checking out my project!
 
+[check this out!](https://kacperkwinta.github.io/Cable-Reminder/)
+
 ### Original design
 
 ![alt text](project-design.gif)
