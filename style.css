@@ -65,6 +65,11 @@ h3 {
 }
 
 @media (max-width: 41.25em) {
+
+  html {
+    font-size: 50%;
+  }
+
   .box {
     margin: 0 auto;
     width: 90%;
