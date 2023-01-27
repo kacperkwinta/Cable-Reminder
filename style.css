@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(7, 4, 42);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: blur(1px);
+}
+
+.box {
+  background-color: rgb(82, 82, 82);
+  width: 60rem;
+  border: 2px solid #fff;
+  padding: 2.4rem;
+  animation: move 10s step-start infinite forwards;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  text-align: center;
+  background-color: gray;
+  margin-bottom: 2.4rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+@keyframes move {
+  0.0% {
+    transform: translate(0, -30px);
+  }
+  100% {
+  }
+  19.6% {
+    transform: translate(0, -60px);
+  }
+  39.6% {
+    transform: translate(0, -90px);
+  }
+  59.7% {
+    transform: translate(0, -60px);
+  }
+  80.4% {
+    transform: translate(0, -30px);
+  }
+}
+
+@media (max-width: 41.25em) {
+  .box {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
